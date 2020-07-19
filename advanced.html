@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google Advanced Search</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <style>
+            .title{
+                background-color:grey ;
+                padding: 5px;
+                font-size: medium;
+            }
+            .text{
+                font-weight:lighter;
+            }      
+            .box1{
+                padding-left: 100px;
+                position: relative;
+                left: 250px;
+                bottom: 160px;
+                
+            }     
+            .box2{
+                padding-left: 100px;
+                position: relative;
+                left: -58px;
+                top: -122px;
+            }
+            .box3{
+                padding-left: 100px;
+                position: relative;
+                left:-366px;
+                bottom: 85px;
+            }
+            .box4{
+                padding-left: 100px;
+                position: relative;
+               right: 674px;
+               bottom: 43px;
+            }
+        </style>
+    </head>
+    <body>
+            <div class="alert alert-dark" role="alert">
+                <form >
+                    <img src="Desktop/index.jpg" style="width: 5%;" >
+                </form>
+              </div>
+        
+        <h2 style="color: red;">Advanced Search</h2>
+        <hr>
+        <div class="text">
+            <p>Find pages with...</p>
+            <p>all these words</p>
+            <p>this exact word or phrase</p>
+            <p>any of these words</p>
+            <p>none of these words</p>
+        </div>
+        <div>
+            <form action="https://www.google.com/search">
+                <input type="text" class="box1" name="as_q">
+                <input type="text" class="box2" name="as_epq">
+                <input type="text" class="box3" name="as_oq">
+                <input type="text" class="box4" name="as_eq">
+                <input type="submit" value="Advanced Search" style="padding: 5px 5px 5px 5px; background-color: blue;color: white; position: relative; right: 700px; bottom: -34px;">
+            </form>
+        </div>
+        <form action="index1.html">
+            <input type="submit" value="Google Search" style="padding: 5px 5px 5px 5px;">
+        </form>
+    </body>
+</html>
